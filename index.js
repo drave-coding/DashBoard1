@@ -22,8 +22,8 @@ darkMode.addEventListener('click', () => {
 Orders.forEach(order => {
     const tr = document.createElement('tr');
     const trContent = `
-        <td>${order.pieceName}</td>
-        <td>${order.pieceNumber}</td>
+        <td>${order.productName}</td>
+        <td>${order.productNumber}</td>
         <td>${order.paymentStatus}</td>
         <td class="${order.status === 'Declined' ? 'danger' : order.status === 'Pending' ? 'warning' : 'primary'}">${order.status}</td>
         <td class="primary">Details</td>

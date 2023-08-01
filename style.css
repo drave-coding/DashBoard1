@@ -39,6 +39,7 @@
     border: 0;
     text-decoration: none;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -119,10 +120,12 @@ b{
     margin: 0 auto;
     gap: 1.8rem;
     grid-template-columns: 12rem auto 23rem;
+    
 }
 
 aside{
     height: 100vh;
+    
 }
 
 aside .toggle{
@@ -140,7 +143,7 @@ aside .toggle .logo{
 aside .toggle .logo img{
     width: 2rem;
     height: 2rem;
-    mix-blend-mode: difference;
+    
     border-radius: 50%;
 }
 
@@ -224,6 +227,7 @@ aside .sidebar .message-count{
     border-radius: var(--border-radius-1);
 }
 
+/* checked */
 main{
     margin-top: 1.4rem;
 }
@@ -381,6 +385,7 @@ main .recent-orders a{
     margin: 1rem auto;
     color: var(--color-primary);
 }
+/* checked */
 
 .right-section{
     margin-top: 1.4rem;
@@ -457,7 +462,7 @@ main .recent-orders a{
     height: 11rem;
     margin-bottom: 0.8rem;
     border-radius: 50%;
-    mix-blend-mode: difference;
+    
 }
 
 .right-section .user-profile h2{
@@ -539,6 +544,7 @@ main .recent-orders a{
     align-items: center;
     gap: 0.6rem;
 }
+/* checked */
 
 @media screen and (max-width: 1200px) {
     .container{
@@ -711,3 +717,4 @@ main .recent-orders a{
     }
 
 }
+/* checked */
